@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>RegisterPage</title>
+    <link rel="stylesheet" href="./css/registration.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="register.html">Home</a></li>
+        <li><a href="">About Me</a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="">Register</a></li>
+      </ul>
+    </nav>
+
+    <div class="registrationSelection">
+      <form id="form" action="./home.html" method="POST" autocomplete="on">
+        <fieldset>
+          <legend class="legend">Register</legend>
+          <div class="personalInformation inside">
+            <br />
+            <label for="fname">First name:</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              required=""
+              placeholder="First name here please"
+            />
+
+            <label for="lname">Last name:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              required=""
+              placeholder="Last name here please"
+            />
+
+            <label for="cities">Where do you live</label>
+            <select id="cities" name="cities">
+              <option value="Lisboa">Lisboa</option>
+              <option value="Abrantes">Abrantes</option>
+              <option value="Bragança">Bragança</option>
+            </select>
+
+            <label
+              for="userName"
+              title="Letters and numbers. Minimum size: 5. Maximum size: 40"
+              >UserName:</label
+            >
+            <input
+              type="text"
+              id="userName"
+              name="userName"
+              pattern="[A-Za-z0-9]{5,40}"
+              required=""
+              placeholder="Ex: MaxMat64"
+            />
+
+            <label
+              for="password"
+              title="Required one number, one lowerCase and one upercase letter. Minimum size: 8."
+              >Password:</label
+            >
+            <input
+              type="text"
+              id="password"
+              name="password"
+              required=""
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              placeholder="Password here please"
+            />
+
+            <label for="email" title="Ex: yourMail@someting.that">Email:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              required=""
+              pattern="[a-z0-9._%+-]+@[a-z.-]+\.[a-z]{2,}"
+              placeholder="yourMail@someting.that"
+            />
+
+            <label for="dateofbirth"> Your birthday </label>
+            <input
+              type="date"
+              name="dateofbirth"
+              id="dateofbirth"
+              required=""
+            />
+          </div>
+        </fieldset>
+
+        <div>
+          <input class="submitButton" type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

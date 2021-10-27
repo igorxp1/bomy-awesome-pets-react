@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* ClassNames */
+
+.formRegister2{
+  margin-left: -130px;
+}
+
+.address{
+  margin-top: 100px;
+  color: #EE6C4D;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+
+  .adr1{
+    width: 305px;
+  }
+
+  .adr2{
+    width: 305px;
+  }
+}
+
+.address2{
+  color: #EE6C4D;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+ }
+
+.h6{
+  margin-bottom: 10px;
+}
+
+.range{
+  display: flex;
+  flex-direction: row;
+}
+
+.submitButton {
+  background-color: white;
+  color: #EE6C4D;
+  border-color: #EE6C4D;
+
+  &:hover {
+    background-color: white;
+    border-color: #05A8AA;
+    color: #05A8AA;
+  }
+}
+

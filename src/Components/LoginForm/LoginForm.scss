@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* ClassNames */
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  margin-right: 530px;
+  margin-top: 100px;
+
+  .user{
+    color: #EE6C4D;
+    font-size: 18px;
+  }
+
+  .pass{
+    color: #EE6C4D;
+    font-size: 18px;
+  }
+
+  .rememberBox {
+    font-size: 12px;
+    margin-bottom: 15px;
+
+    &:checked {
+      border-color: #EE6C4D;
+      background-color: #05A8AA;
+
+    }
+  }
+
+  .submitButton{
+    background-color: white;
+    color: #EE6C4D;
+    border-color: #EE6C4D;
+    margin: 0px;
+    width: 160px;
+
+    &:hover{
+      border-color: #05A8AA;
+      color: #05A8AA;
+
+    }
+  }
+}

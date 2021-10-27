@@ -1,0 +1,33 @@
+ul {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+li {float: left;}
+
+li a {
+    color: #282c34 ;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+h3{
+    display: flex;
+}
+
+container{
+
+    background-color: #282c34;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 400px;
+}

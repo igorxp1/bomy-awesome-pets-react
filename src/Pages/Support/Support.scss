@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+
+    .submitButton{
+        background-color: white;
+        color: #EE6C4D;
+        border-color: #EE6C4D;
+        margin: 0px;
+        width: 160px;
+    
+          &:hover{
+          border-color: #05A8AA;
+          color: #05A8AA;
+          }
+}
+}

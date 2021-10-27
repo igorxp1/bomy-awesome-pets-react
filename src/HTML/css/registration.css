@@ -1,0 +1,45 @@
+ul {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #282c34;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.registrationSelection {
+  padding-left: 40%;
+  width: 300px;
+  height: 500px;
+  display: flex;
+}
+.personalInformation {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.selectUserOrWorker {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.submitButton {
+  margin: 10px 100px;
+}
+
+.legend {
+  margin-left: 50px;
+}

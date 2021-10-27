@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+/* Tags */
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+h6{
+  color: #EE6C4D;
+  font-size: 12px;
+}
+
+/* ClassNames */
+
+.Title{
+  margin-top: 95px;
+
+
+  h1 {
+    font-family:'Fredoka One', cursive;
+    color: #05A8AA;
+    margin-left: 0px;
+  }
+
+  h3{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #413e3b;
+    width: 450px;
+  }
+}
+
+.homeFormSelect{
+  margin-top:30px;
+  width: 450px;
+  }
+
+.homeFormDate {
+  margin-top: 30px;
+  width: 450px;
+}
+
+.space{
+  width: 100px;
+}
+
+.dateAndTime{
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+ .homeImg{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 10px;
+
+
+  img {
+    width: 325px;
+  }
+}
